@@ -1,7 +1,7 @@
 ## Projeto final da matéria de dispositivos lógicos programáveis
 Semáforos autônomos para veículos e pedestres
 
-[![Ilustração do problema(https://github.com/mftutui/DLP29006/blob/master/imagem-projeto-DLP.jpg)]
+[![Ilustração do problema(https://github.com/mftutui/DLP29006/blob/master/imagem-projeto-DLP.jpg)
 
 ## Descrição do projeto
 
