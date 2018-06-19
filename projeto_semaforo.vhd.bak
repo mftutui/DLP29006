@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity projeto_semaforo is
+	generic(f_clk:natural:= 5000); -- valor 50Mhz: 50000000 
+	
+	port
+	(
+		clk_in, rst_in: in  std_logic;
+	);
+end entity;
+
+architecture ifsc of projeto_semaforo is
+	
+	component div_clk is
+		generic(n:natural:= 5); -- valor 50Mhz: 50000000
+	
+		port
+		(
+			clk, rst: in  std_logic;
+			clk_out: out std_logic
+		);
+	end component;
+	
+signal rst : std_logic; 	
+	
+begin
+	
+	divsor_clk:component div_clk
+		generic map (n => f_clk)
+	
+		port map
+		(
+			clk => clk_in,
+			rst => rst,
+			clk_out => XXX
+		);
+		
+end architecture;
