@@ -1,9 +1,12 @@
 ## Projeto final da matéria de dispositivos lógicos programáveis DLP29006 - IFSC São José
-Semáforos autônomos para veículos e pedestres
+
+Semáforos autônomos para veículos e pedestres.
 
 ![Ilustração doproblema](https://github.com/mftutui/DLP29006/blob/master/imagem-projeto-DLP.jpg)
 
 ## Descrição do projeto
+
+A  solução proposta é composta  por  dois  grupos  de  semáforos (1  e  2), onde o grupo 1 é definido para a passagem segura de pedestres e o grupo 2 deve permitir o fluxo saudável em uma intersecção de vias preferenciais (via 1 e via 2) e uma via secundária (via 3).
 
 ## GRUPO 1:
 O grupo 1 de semáforos será composto por:
@@ -39,6 +42,8 @@ O grupo 2 de semáforos será composto por:
 - Se nos tSemVeiculo anteriores não houver a passagem de veículos em nenhum dos sentidos o GFP muda progressivamente do estado verde para vermelho e ao final o GFS m2 muda seu estado de vermelho para verde por tTravessia.
 - Se ambas as vias estiverem com o contador inferior a tSemVeiculo, o veículo na via 3 pode esperar até tMax para que sua passagem seja permitida. Após o período de espera o GFS m2 fica em verde por tTravessia. Após este período o GFP das vias 1 e 2 mudarão seus estados progressivamente novamente até mudar para verde.
 - Se durante o tMax o sensor temporizado atingir o tSemVeiculo o GFP muda progressivamente do estado verde para vermelho e ao final o GFS m2 muda seu estado de vermelho para verde por tTravessia.
+
+Relatório completo no [Overleaf](https://pt.overleaf.com/read/tdqffmrtfrsd)
 
 <b>Built with</b>
 - [Quartus](https://www.altera.com)
