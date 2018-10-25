@@ -1,7 +1,7 @@
-## Projeto final da matéria de dispositivos lógicos programáveis
+## Projeto final da matéria de dispositivos lógicos programáveis DLP29006 - IFSC São José
 Semáforos autônomos para veículos e pedestres
 
-[![Ilustração doproblema](https://github.com/mftutui/DLP29006/blob/master/imagem-projeto-DLP.jpg)
+![Ilustração doproblema](https://github.com/mftutui/DLP29006/blob/master/imagem-projeto-DLP.jpg)
 
 ## Descrição do projeto
 
@@ -41,6 +41,6 @@ O grupo 2 de semáforos será composto por:
 - Se durante o tMax o sensor temporizado atingir o tSemVeiculo o GFP muda progressivamente do estado verde para vermelho e ao final o GFS m2 muda seu estado de vermelho para verde por tTravessia.
 
 <b>Built with</b>
-- [Quartus](https://www.altera.com
+- [Quartus](https://www.altera.com)
 
 - Engenharia de telecomunicações - IFSC SJ
